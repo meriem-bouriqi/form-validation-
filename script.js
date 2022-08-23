@@ -20,7 +20,7 @@ form.addEventListener("submit", (e) => {
     const fullNameValue = fullName.value.trim();
     // const usernameValue = userName.value.trim().toLowerCase();
     const emailValue = email.value.trim();
-    const genderVlue = gender.value;
+    const genderValue = gender.value;
     const ageValue = age.value.trim();
     const phoneNumberValue = phoneNumber.value.trim();
     const passwordValue = password.value.trim();
@@ -138,7 +138,7 @@ if (passwordValue === "") {
     setSuccessMessage(checkPassword);
   }
 
-  if(genderVlue=='default') {
+  if(genderValue=='default') {
     setErrorMessage(gender, "Please select your gender");
   }else{
     setSuccessMessage(gender);
