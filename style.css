@@ -62,9 +62,9 @@ body{
 
 
 }
-.form-control.success select{
+ .form-control.success select{
     border-color: rgb(80, 237, 132);
-}
+} 
 .form-control.error select{
     border-color: rgb(235, 27, 27);
 }
@@ -77,10 +77,9 @@ body{
 
 .form-control.error small{
     visibility: visible;
-    color: rgb(235, 27, 27) ;
-
-
+    color: rgb(235, 27, 27);
 }
+
 
 .form-control small{
      position: absolute;
